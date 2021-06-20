@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    <!-- USE Googlr Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&family=Dancing+Script:wght@400;500;600;700&family=Anton&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* Variables Colors */
+        .container{
+            width: 80vw;
+            margin: auto;
+            background-color: #121212;
+            max-width: 800px;
+        }
+      
+        .header{
+            background-color:#fde61b;
+            padding: 10px;
+            height: 65px;
+            vertical-align:middle;
+        }
+        
+         .header .logo{
+             float: left;
+         }
+         .header h2{
+             float: right;
+             padding: 10px;
+         }
+         .landing{
+             background-image: url(https://i.postimg.cc/k4MHsXQQ/landing.jpg);
+             background-size: cover;
+             position: relative;
+             height: 500px;
+         }
+         .overlay{
+             background-color:#fff;
+             padding: 10px;
+             margin-bottom: 20px;
+             text-align: left;
+         }
+         .overlay h2{
+            font-family: 'Anton', sans-serif;
+            margin-bottom: 10px;
+            text-align: left;
+         }
+         .overlay p{
+             line-height: 1.5;
+             font-weight: bold;
+             font-family: 'cairo',sans-serif;
+             color: rgba(0, 0, 0, 0.5);
+         }
+        h2{
+            font-size: 26px;
+            text-transform: uppercase;
+            font-family: 'Dancing Script', cursive;
+            text-align: left;
+        }
+        main{
+            color: white;
+            padding: 60px 20px;
+        }
+        h1{
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            font-size: 30px;
+            color: #fde61b;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            text-align: left;
+            padding: 20px;
+        }
+        main p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #eee;
+            font-family: 'Cairo', sans-serif;
+            text-align: left;
+            padding: 20px;
+
+        }
+        .new-item{
+            margin: 30px 0;
+            text-align: center;
+            padding: 20px;
+        }
+        .new-item h3{
+            font-family: 'Dancing Script', cursive;
+            color: #fde61b;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+
+        .item{
+            margin: 30px;
+             }
+        .item .box{
+            border: 3px solid #fde61b;
+            margin-bottom: 30px;
+        }
+        @media(min-width : 767px){
+            .item .box{
+               width: 46%;
+            }
+        }
+        .item .box.one{
+          float: left;
+        }
+        .item .box.two{
+          float: right;
+        }
+        .item .box img{
+             width: 100%;
+             max-width: 100%;
+        }
+        .new-item a {
+            display: block;
+            text-decoration: none;
+            background-color: #fde61b;
+            padding: 8px 14px;
+            margin: 60px auto 20px;            
+            width: 150px;
+            color: #121212;
+            text-transform: uppercase;
+            border-radius: 4px;
+            box-shadow: 3px 3px 10px white , -3px -3px 10px white;
+        }
+        .new-item a:hover {
+           background-color: white;
+           box-shadow: 3px 3px 10px #fde61b , -3px -3px 10px #fde61b;
+        }
+        @media (max-width:767px){
+            .item .box{
+                margin-bottom: 30px;
+                float: none;
+              }
+        }
+        
+        .visit h3 {
+            font-family: 'Dancing Script', cursive;
+            color: #fde61b;
+            font-size: 25px;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+        .visit p {
+           
+           color: white;
+           line-height: 1.5;
+           font-family: 'Cairo', sans-serif;
+           font-size: 18px;
+           margin-bottom: 30px;
+           padding: 20px;
+           text-align: left;
+
+        }
+        .footer{
+            background-color:#fde61b ;
+            padding: 10px;
+        }
+        
+        .footer .logo{
+            float: left;
+        }
+        .footer .links{
+            float: right;
+            padding: 10px;
+        }
+        .footer .links a{
+          padding: 0 10px;
+          vertical-align: middle;
+          display: inline;
+        }
+        .footer .links img{
+            width: 30px;
+            height: 30px;
+        }
+
+    </style>
+  
+</head>
+<body>
+    <div class="container">
+            <div class="header">
+                    <div class="logo">
+                        <img src="https://i.postimg.cc/c46SZT8R/logo.png" alt="Logo">
+                    </div>
+                    <h2>lunch box</h2>
+        </div>
+        <div class="both" style="clear: both;"></div>
+        <div class="landing">
+        </div>
+        <div class="overlay">
+            <h2>UMAMI BURGER</h2>
+            <p>Umami Burger is an American restaurant chain that specializes in gourmet hamburgers. The name refers to umami flavor.</p>
+        </div>
+
+        <main>
+                    <h1>lunchBox Reasturant</h1>
+                    <p>
+                        A collection of enterprise solutions that redefine the digital restaurant experience. With built-in growth hacking tools that drive guests to your system and away from third-party.
+                    </p>
+                    <div class="new-item">
+                            <h3>try our  new dishes</h3>
+                            <p>We're all from the restaurant industry. We know what we wanted, needed, and never got.
+                                Lunchbox is a culmination of all of this. You're welcome</p>
+                            <div class="item">
+                                <div class="box one">
+                                <img src='https://i.postimg.cc/J7ZXxchQ/All-Day-Kitchens.jpg' border='0' alt='All-Day-Kitchens'/>               </div>
+                            <div class="box two">
+                                    <img src="https://i.postimg.cc/nhzMyvng/Citizens-GO.jpg" alt="item2">
+                            </div>
+                            <div class="both" style="clear: both;"></div>
+
+
+                            </div>
+                        <a href="https://lunchbox.io/" target="_blank">Visit Us Now</a>
+
+                    </div>
+        </main>
+
+        <div class="visit">
+                    <h3>NEXT-GENENTERPRISE ONLINE ORDERING</h3>
+                    <p>A collection of enterprise solutions that redefine the digital restaurant experience. With built-in growth hacking tools that drive guests to your system and away from third-party.</p>
+        </div>
+        <div class="footer">
+                <div class="logo">
+                    <img src="https://i.postimg.cc/c46SZT8R/logo.png" alt="logo">
+                </div>
+
+                <div class="links">
+                <a href="https://twitter.com/lunchboxtech"><img src="https://i.postimg.cc/bvcS18Wp/twitter.png" alt="twitter"></a>
+                <a href="https://www.instagram.com/lunchboxtech/"><img src="https://i.postimg.cc/DZdqdbfP/instagram.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/company/lunchboxtechnologies/"><img src="https://i.postimg.cc/zGVFZBpq/LinkedIn.png" alt="linkedin"></a>
+                </div>
+                <div class="both" style="clear: both;"></div>
+
+        </div>
+   </div>
+
+</body>
+</html>
